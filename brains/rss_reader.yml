@@ -1,9 +1,0 @@
----
-  - name: "news-lemonde"
-    signals:
-      - order: "quelles sont les nouvelles"
-    neurons:
-      - rss_reader:
-          feed_url: "http://www.lemonde.fr/rss/une.xml"
-          max_items: 5
-          file_template: templates/rss_new_lemonde.j2
