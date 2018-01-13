@@ -1,8 +1,6 @@
----
-  - name: "say-hello-fr"
-    signals:
-      - order: "Bonjour"
-    neurons:
-      - say:
-          message:
-            - "Bonjour {{name}}"
+- name: "say-hello-fr"
+  signals:
+    - order: "Bonjour"
+  neurons:
+    - say:
+        message: "Bonjour {{name}}"
